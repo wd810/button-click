@@ -99,7 +99,7 @@ export default {
                 this.timerActive = !this.timerActive
                 console.log(this.state, this.timer, this.timerActive)
                 setTimeout(() => {
-                    console.log(`${this.timer} later...`)
+                    console.log(`${this.timer} seconds later...`)
                     this.timerActive = false
                 }, this.timer * 1000)      
             }  
